@@ -30,7 +30,7 @@ py -m pip install .
 ```
 <br>
 
-4. Run the app by running. You may need to restart your command prompt to get the flask command to work after previous step.
+4. Run the app by running this command. You may need to restart your command prompt to get the flask command to work after previous step.
 ```
 python -m flask --app flask_poetry\example\run-the-app run
 ```
