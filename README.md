@@ -32,11 +32,11 @@ py -m pip install .
 
 4. Run the app by running this command. You may need to restart your command prompt to get the flask command to work after previous step.
 ```
-python -m flask --app flask_poetry\example\run-the-app run
+python -m flask --app flask_poetry/example/run-the-app run
 ```
 You may not have the command `python` on your path if installed from the Software Centre. If this is the case, you can try these commands instead for steps:
 ```
-py -m flask --app flask_poetry\example\run-the-app run
+py -m flask --app flask_poetry/example/run-the-app run
 ```
 <br>
 
@@ -55,6 +55,6 @@ C:\Users\user\AppData\Local\Programs\Python\Python310\python.exe -m pip install 
 ```
 and the following command to run the app:
 ```
-C:\Users\user\AppData\Local\Programs\Python\Python310\python.exe -m flask --app flask_poetry\example\run-the-app run
+C:\Users\user\AppData\Local\Programs\Python\Python310\python.exe -m flask --app flask_poetry/example/run-the-app run
 ```
 
