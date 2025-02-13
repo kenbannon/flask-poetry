@@ -55,6 +55,6 @@ C:\Users\user\AppData\Local\Programs\Python\Python310\python.exe -m pip install 
 ```
 and the following command to run the app:
 ```
-C:\Users\user\AppData\Local\Programs\Python\Python310\python.exe -m flask --app flask_poetry/example/run-the-app run
+C:\Users\user\AppData\Local\Programs\Python\Python310\python.exe flask_poetry/example/run-the-app.py
 ```
 
