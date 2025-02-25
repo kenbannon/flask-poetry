@@ -7,7 +7,7 @@ This is a test to see if we can run a python web app locally, similarly to how i
 
 # Instructions
 
-1. Clone this repo using 
+1. Clone this repo. You can do this by opening a terminal such as Git Bash (Windows) or Terminal (Mac) and running the following command:
 ```
 git clone https://github.com/kenbannon/flask-poetry.git
 ```   
