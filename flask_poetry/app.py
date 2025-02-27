@@ -19,7 +19,7 @@ ALLOWED_EXTENSIONS = {'csv'} # Define allowed files
 app = Flask(__name__)
  
 # Configure upload file path flask
-app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+app.config['UPLOAD_FOLDER'] = f"{app.root_path}/{UPLOAD_FOLDER}"
 app.secret_key = "secret_key"
 
 @app.route('/', methods=['GET', 'POST'])
