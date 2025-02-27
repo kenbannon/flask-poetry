@@ -9,8 +9,9 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "flask (>=3.1.0,<4.0.0)",
-    "flask-sqlalchemy (>=3.1.1,<4.0.0)", 
-    "matched_markets@git+https://github.com/google/matched_markets.git"
+    "matched_markets@git+https://github.com/google/matched_markets.git#f90c6c356f8d11fe524ac0ad3d1bb0fad2b282e7", 
+    "pandas (>=2.2.3,<3.0.0)", 
+    "numpy (>=2.2.3,<3.0.0)"
 
 ]
 

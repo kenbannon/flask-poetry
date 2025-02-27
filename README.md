@@ -58,3 +58,5 @@ and the following command to run the app:
 C:\Users\user\AppData\Local\Programs\Python\Python310\python.exe flask_poetry/example/run-the-app.py
 ```
 
+# Notes
+Had to use this version of matched markets to avoid the BUILD issue described. https://github.com/google/matched_markets/pull/8
