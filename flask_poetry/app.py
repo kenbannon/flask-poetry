@@ -22,6 +22,10 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = f"{app.root_path}/{UPLOAD_FOLDER}"
 app.secret_key = "secret_key"
 
+if not os.path.exists(app.config['UPLOAD_FOLDER']):
+    print("Making directory")
+    os.makedirs(app.config['UPLOAD_FOLDER'])
+
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
