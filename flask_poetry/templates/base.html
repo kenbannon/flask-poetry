@@ -10,4 +10,9 @@
 <body>
     {% block body %}{% endblock %}
 </body>
+<script>
+    // Get the index url by supplying the name of the function for the route (index())
+    const base_url = {{ request.script_root|tojson }}
+</script>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
 </html>
